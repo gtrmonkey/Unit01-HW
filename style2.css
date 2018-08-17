@@ -1,0 +1,72 @@
+    body{
+    background-image: url('assets/bckgrnd.png');
+    margin: 0px;
+}
+    nav{
+        margin: 20px;
+    }
+    h1{
+        margin: 20px;
+        font-family: 'Montserrat';
+        color: #333333
+    }
+    h2{
+        margin: 20px;
+        font-family: 'Montserrat';
+        color: #333333
+
+    }
+    p{
+        margin: 20px;
+        font-family: 'Open Sans';
+        color: #333333
+    }
+    
+    mypic img{
+        border: 3px solid #2c5fa8;
+        border-radius: 100px;
+        width: 200px;
+        margin: 20px
+    }
+
+  
+    #wrapper    {
+        grid-row: span 1;
+        grid-column: span 1;
+        display: grid;
+        height: 100%;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        color: rgba(150,150,150,0.6);
+    }
+    .one {
+        background-image: url(https://picsum.photos/800/600C:\Users\gtrmo\BC\homework\01-unit\01-Unit-HTML_and_CSS\starter\assets\arrow.png/);
+        grid-row: span 1;
+        grid-column: span 2;
+        color: rgba(150,150,150,0.6);
+      }
+      .two {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-qRE-Gf65mliXXJiUUdfuaQ6NBZQJGzL071CRx5OHly5n2JiuA);
+        grid-row: span 1;
+        grid-column: span 2;
+        color: rgba(150,150,150,0.6);
+      }
+      .three {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-qRE-Gf65mliXXJiUUdfuaQ6NBZQJGzL071CRx5OHly5n2JiuA);
+        grid-row: span 1;
+        grid-column: span 2;
+        color: rgba(150,150,150,0.6);
+      }
+      .four {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-qRE-Gf65mliXXJiUUdfuaQ6NBZQJGzL071CRx5OHly5n2JiuA);
+        grid-row: span 1;
+        grid-column: span 2;
+        color: rgba(150,150,150,0.6);
+      }
+  footer{
+      background-color: rgba(150,150,150,0.6);
+      color: #FFFFFF;
+      text-align: center;
+      border-top: 1px solid #FFFFFF;      
+  }

@@ -3,7 +3,10 @@
     margin: 0px;
 }
     nav{
-        margin: 20px;
+        margin: 20px
+    }
+    nav img{
+        padding-right: 20px;
     }
     h1{
         margin: 20px;
@@ -44,13 +47,12 @@
     margin: 5px;
   }
    
-   #wrapper img{
-        padding-right: 30px;
-        padding-left:  50px;
+   .pc{
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left:  60px;
     }
-    .down{
-        margin: 10px;
-    }
+    
   footer{
       background-color: rgba(150,150,150,0.6);
       color: #FFFFFF;
